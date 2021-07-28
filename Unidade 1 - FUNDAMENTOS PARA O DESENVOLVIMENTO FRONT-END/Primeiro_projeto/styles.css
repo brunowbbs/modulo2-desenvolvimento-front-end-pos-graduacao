@@ -1,0 +1,17 @@
+body {
+  background-color: aqua;
+}
+
+#titulo {
+  color: brown;
+}
+
+.paragrafo {
+  color: rgb(218, 0, 0);
+  font-weight: bold;
+}
+
+.div1 {
+  background-color: coral;
+  padding: 20px;
+}

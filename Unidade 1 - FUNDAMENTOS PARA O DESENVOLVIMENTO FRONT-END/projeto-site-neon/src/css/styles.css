@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav {
+  display: flex;
+  background-color: #0573ce;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+nav img {
+  width: 100px;
+  object-fit: contain;
+  margin-left: 10px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  padding: 5px;
+  margin: 0 8px;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+nav ul li:last-child {
+  background-color: #f9c70c;
+  border-radius: 20px;
+  padding: 10px;
+  color: black;
+}
+
+main {
+  background-color: #0573ce;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-main {
+  max-width: 410px;
+}
+
+.container-main h1 {
+  line-height: 1.4;
+  font-size: 42px;
+}
+
+.container-main h4 {
+  margin-bottom: 20px;
+  line-height: 2;
+  font-weight: 400;
+}
+
+main img {
+  max-width: 500px;
+}
+
+.botton-account {
+  background-color: #f9c70c;
+  border-radius: 20px;
+  padding: 10px;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.5s ease all;
+}
+
+.botton-account:hover {
+  background-color: #e0b414;
+}
+
+.video-prop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
+.phrase {
+  text-align: center;
+}
+
+.container-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-cards div {
+  cursor: pointer;
+  border-radius: 20px;
+  max-width: 350px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-self: center;
+  padding: 65px 10px;
+  margin: 40px 10px;
+  color: #fff;
+}
+
+.card1 {
+  background-color: #00459d;
+  ]
+}
+.card2 {
+  background-color: #0073cd;
+}
+.card3 {
+  background-color: #006969;
+}
+
+.container-cards div img {
+  width: 150px;
+  margin: -40px 0 30px 0;
+}
+
+.container-cards div h2 {
+  margin-bottom: 30px;
+}
+
+.container-botton-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.botton-account-2 {
+  background-color: #00a5f0;
+  border-radius: 20px;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  width: 170px;
+  transition: 0.5s ease all;
+  margin-bottom: 30px;
+  box-shadow: 60px -16px teal;
+}
+
+.container-foot {
+  background-color: #0073cd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding: 50px;
+}
+
+.container-foot div {
+  padding: 40px;
+}
+
+.container-foot div img {
+  width: 200px;
+}
+
+.container-foot img {
+  width: 300px;
+}
+
+.container-foot div h1 {
+  max-width: 400px;
+}

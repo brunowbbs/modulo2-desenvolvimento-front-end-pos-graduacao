@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="text" name="" id="anoNasc" />
+    <button onclick="exibir()">OK</button>
+    <h1 id="anoRecebido"></h1>
+    <h1 id="anoRecebido"></h1>
+    <script>
+      function exibir() {
+        const ano = document.getElementById('anoNasc').value;
+
+        const elementoH1 = document.getElementById('anoRecebido');
+        console.log(ano);
+        elementoH1.innerHTML = 2021 - ano;
+      }
+    </script>
+  </body>
+</html>

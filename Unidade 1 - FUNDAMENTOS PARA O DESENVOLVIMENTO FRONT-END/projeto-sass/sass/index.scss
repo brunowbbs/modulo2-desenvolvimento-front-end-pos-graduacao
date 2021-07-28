@@ -1,0 +1,17 @@
+@mixin tamanho($size) {
+  width: $size;
+  height: 400px;
+}
+
+%tamanhos {
+  width: 100px;
+  height: 100px;
+}
+
+.minha-div {
+  @extend %tamanhos;
+}
+
+.minha-div2 {
+  @extend %tamanhos;
+}

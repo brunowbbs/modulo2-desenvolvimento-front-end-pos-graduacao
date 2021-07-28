@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#div1 {
+  width: 350px;
+  height: 350px;
+  background: blueviolet;
+}
+
+#div2 {
+  width: 350px;
+  height: 350px;
+  background: rgb(96, 235, 96);
+}
+
+#div3 {
+  width: 350px;
+  height: 350px;
+  background: rgb(189, 80, 80);
+}
